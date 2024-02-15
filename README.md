@@ -72,6 +72,8 @@ tensor([[3.],
 Don't count any overhead for the Python object -- just multiply the
 element size by the number of elements.
 
+83520
+
 #### Q2: what is the biggest difference we would have any one cell if we used float16 instead of float64?
 
 Convert trainX to float16, then back again to float64.  Subtract the
